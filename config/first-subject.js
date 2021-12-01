@@ -6,5 +6,5 @@ function result() {
     if (document.getElementById('correct4').checked) { score++; }
 
     const scoreAnswers = document.getElementById("scoreAnswers");
-    scoreAnswers.innerHTML = "<p>Sua pontuação é: " + score + "</p> <p>Respostas corretas: <br> 1) head <br>2) body<br> 3) / <br>4) Define a cor do fundo</p>";
+    scoreAnswers.innerHTML = "<p>Sua pontuação é: " + score + "</p> <p>Respostas corretas: <br> 1) head entre <> <br>2) body entre <> <br> 3) / <br>4) p entre <></p>";
 }    

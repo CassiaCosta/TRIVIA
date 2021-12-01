@@ -10,16 +10,10 @@
 </head>
 
 <body>
-    <header> Trivia Dev</header>
-    <div class="score" id="score">
-        <p>score:00</p>
-    </div>
-
     <div class="questions_area">
         <div class="questions">
-
             <section class="question_5">
-                <p>5) O que faz a propriedade border-style?
+                <p>1) O que faz a propriedade border-style?
                     <br><br>
                     <input type="radio" id="answerA" name="option_question_5" value="A"> Altera o estilo da fonte
                     <br>
@@ -30,7 +24,7 @@
             </section>
 
             <section class="question_6">
-                <p>6) Qual propriedade altera o tamanho da fonte?
+                <p>2) Qual propriedade altera o tamanho da fonte?
                     <br><br>
                     <input type="radio" id="answerA" name="option_question_6" value="A"> font-style
                     <br>
@@ -41,37 +35,35 @@
             </section>
 
             <section class="question_7">
-                <p>7) O que é um Objeto?
+                <p>3) O que as propriedades height e width definem?
                     <br><br>
-                    <input type="radio" id="correct7" name="option_question_7" value="A"> Um Objeto é a instância de uma
-                    classe.
+                    <input type="radio" id="correct7" name="option_question_7" value="A"> Altura e largura
                     <br>
-                    <input type="radio" id="answerB" name="option_question_7" value="B"> Um Objeto é uma ferramenta de
-                    navegação.
+                    <input type="radio" id="answerB" name="option_question_7" value="B"> Preenchimento e margem 
                     <br>
-                    <input type="radio" id="answerC" name="option_question_7" value="C"> Objeto é algo material que pode
-                    ser percebida pelos sentidos.
+                    <input type="radio" id="answerC" name="option_question_7" value="C"> Largura e altura
                 </p>
             </section>
 
             <section class="question_8">
-                <p>8) O que significa NaN?
+                <p>4) O que a propriedade background-color faz?
                     <br><br>
-                    <input type="radio" id="answerA" name="option_question_8" value="A"> NaN significa nenhum, nenhuma.
+                    <input type="radio" id="answerA" name="option_question_8" value="A"> Define a cor da fonte
                     <br>
-                    <input type="radio" id="answerB" name="option_question_8" value="B"> NaN pode ser nada ou vazio.
+                    <input type="radio" id="answerB" name="option_question_8" value="B"> Define a cor da borda
                     <br>
-                    <input type="radio" id="correct8" name="option_question_8" value="C"> Nan é uma abreviação para Not
-                    a number.
+                    <input type="radio" id="correct8" name="option_question_8" value="C"> Define a cor de fundo
                 </p>
             </section>
             <br><br>
-            <div id="testDiv"></div>
-            <div class='button'>
-                <button type="submit" name="submit" value="submit" onclick="result()">Submit</button>
-                <a type="button" href="/src/index.html">voltar</a>
-            </div>
             <br><br>
+        </div>
+
+        <div id="scoreAnswers"></div>
+
+        <div class="finish">
+            <a type="button" href="/src/index.html">voltar</a>
+            <button type="submit" name="submit" value="submit" onclick="result()">Submit</button>
         </div>
     </div>
     <script src="/config/second-subject.js"></script>

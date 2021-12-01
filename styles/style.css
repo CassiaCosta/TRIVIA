@@ -25,18 +25,13 @@ section {
     justify-content: left;
 }
 
-.score {
-    border: 2px solid black;
-    border-radius: 20px;
-    width: 100px;
-    background-color: black;
-    color: white;
-    margin: auto;
+.button{
+    display: flex;
+    justify-content: flex-end;
 }
 
-
 button {
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
     background-color: #0d630f;
     border-radius: 20px;
@@ -44,9 +39,23 @@ button {
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-    cursor: pointer;  
+    cursor: pointer;
+    margin-right: 100px;
+    margin-left: 700px; 
 }
 
 button:hover{
     background-color: #139115; 
+}
+
+.score {
+    background-color: rgb(212, 133, 14);
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header> Trivia Dev</header>
+    <div class="score" id="score"></div>
+    <div class="questions_area">
+        <div class="questions">
+            <section class="question_1">
+                <p>1) Qual tag representa a "cabeça" de uma página web?
+                    <br><br>
+                    <input type="radio" id="answerA" name="option_question_1" value="A"> html
+                    <br>
+                    <input type="radio" id="answerB" name="option_question_1" value="B"> body
+                    <br>
+                    <input type="radio" id="correct1" name="option_question_1" value="C"> head
+                </p>
+            </section>
+
+            <section class="question_2">
+                <p>2) Qual tag representa o "corpo" de uma página web?
+                    <br><br>
+                    <input type="radio" id="correct2" name="option_question_2" value="A"> body
+                    <br>
+                    <input type="radio" id="answerB" name="option_question_2" value="B"> head
+                    <br>
+                    <input type="radio" id="answerC" name="option_question_2" value="C"> header
+                </p>
+            </section>
+
+            <section class="question_3">
+                <p>3) Que símbolo é usado para fechar as tags HTML?
+                    <br><br>
+                    <input type="radio" id="answerA" name="option_question_3" value="A"> (
+                    <br>
+                    <input type="radio" id="correct3" name="option_question_3" value="B"> /
+                    <br>
+                    <input type="radio" id="answerC" name="option_question_3" value="C"> \
+                </p>
+            </section>
+
+            <section class="question_4">
+                <p>4) O que faz propriedade background-color?
+                    <br><br>
+                    <input type="radio" id="answerA" name="option_question_4" value="A"> Define a cor da fonte
+                    <br>
+                    <input type="radio" id="correct4" name="option_question_4" value="B"> Define a cor de fundo
+                    <br>
+                    <input type="radio" id="answerC" name="option_question_4" value="C"> Define a cor da borda
+                </p>
+            </section>
+            <br><br>
+            <div id="testDiv"></div>
+            <div class='button'>
+                <button type="submit" name="submit" value="submit" onclick="result()">Submit</button>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <script src="../config/first-subject.js"></script>
+</body>
+</html>

@@ -1,37 +1,74 @@
 body {
-    background-color: gray;
-}
-
-header {
-    height: 120px;
-    color: black;
-    font-size: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: violet;
 }
 
 .questions_area {
+    height: 94vh;
     margin: 0 40px;
     background-color: white;
     border: 10px solid #000;
     border-radius: 10px;
-    font-size: 30px;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-around;
 }
 section {
-    margin-top: 40px;
-    margin-left: 100px;
-    display: flex;
-    justify-content: left;
+    margin: 5px;
+    width: 500px;
+    height: 60vh;
+    font-size: 29px;
+    border-radius: 10px;
+    background-color: violet;
 }
+
+section p {
+    margin: 20px 10px;
+}
+
+.finish {
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 5px;
+}
+
+.score {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+
+#scoreAnswers {
+    font-size: 25px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .button{
     display: flex;
     justify-content: flex-end;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    background-color: violet;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 15px;
+}
+
 button {
-    justify-content: flex-end;
+    justify-content: end;
     display: flex;
     background-color: #0d630f;
     border-radius: 20px;
@@ -39,23 +76,9 @@ button {
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-    cursor: pointer;
-    margin-right: 100px;
-    margin-left: 700px; 
+    cursor: pointer;  
 }
 
 button:hover{
     background-color: #139115; 
-}
-
-.score {
-    background-color: rgb(212, 133, 14);
-    padding: 16px 32px;
-    margin: 4px 2px;
-    border-radius: 10px;
-    font-size: 30px;
-    color: #ffffff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
 }

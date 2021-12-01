@@ -1,9 +1,9 @@
 body {
-    background-color: gray;
+    background-color: violet;
 }
 
 header {
-    height: 120px;
+    height: 135px;
     color: black;
     font-size: 120px;
     display: flex;
@@ -12,16 +12,34 @@ header {
 }
 
 .main {
+    height: 70vh;
     margin: 0px 40px;
     background-color: white;
     border: 10px solid #000;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-.buttons {
-    margin-top: 40px;
-    margin-left: 100px;
+.main-subjects {
     display: flex;
-    justify-content: left;
+}
+
+.subjects,
+p {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: violet;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.subjects:hover {
+    background-color: violet;
+    opacity: 0.5;
 }

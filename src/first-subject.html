@@ -10,8 +10,7 @@
 </head>
 
 <body>
-    <header> Trivia Dev</header>
-    <div class="score" id="score"></div>
+    <!--<header> Trivia Dev</header>-->
     <div class="questions_area">
         <div class="questions">
             <section class="question_1">
@@ -58,15 +57,16 @@
                 </p>
             </section>
             <br><br>
-            <div id="testDiv"></div>
-            <div class='button'>
-                <button type="submit" name="submit" value="submit" onclick="result()">Submit</button>
-                <a type="button" href="/src/index.html">voltar</a>
-            </div>
             <br><br>
 
-            
+
         </div>
+        <div id="scoreAnswers"></div>
+        <div class="finish">
+            <a type="button" href="/src/index.html">voltar</a>
+            <button type="submit" name="submit" value="submit" onclick="result()">Submit</button>
+        </div>
+
     </div>
     <script src="/config/first-subject.js"></script>
 </body>

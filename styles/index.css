@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+
+header {
+    height: 120px;
+    color: black;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin: 0px 40px;
+    background-color: white;
+    border: 10px solid #000;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.buttons {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: left;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+}
+
+header {
+    height: 120px;
+    color: black;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions_area {
+    margin: 0 40px;
+    background-color: white;
+    border: 10px solid #000;
+    border-radius: 10px;
+    font-size: 30px;
+}
+section {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.score {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+
+button {
+    justify-content: end;
+    display: flex;
+    background-color: #0d630f;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;  
+}
+
+button:hover{
+    background-color: #139115; 
+}
